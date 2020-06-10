@@ -1,0 +1,42 @@
+﻿{
+	"id": "com.hackaton.runner",
+	"version": "1.4.0.0",
+	"name": "Runner",
+	"description": "Runner",
+	"author": "hackaton",
+	"email": "",
+	"website": "",
+	"fullscreen": "true",
+	"useragent": null,
+	"orientation": "default",
+	"icons": [{
+		"src": "www/icon-256.png",
+		"width": 256,
+		"height": 256,
+		"density": "xxxhdpi"
+	}, {
+		"src": "www/icon-128.png",
+		"width": 128,
+		"height": 128,
+		"density": "xhdpi"
+	}],
+	"plugins": [
+		{ "id": "cordova-custom-config", "version": null },
+		{ "id": "cordova-plugin-file", "version": null },
+		{ "id": "cordova-plugin-inappbrowser", "version": null },
+		{ "id": "cordova-plugin-media", "version": null },
+		{ "id": "cordova-plugin-statusbar", "version": null },
+		{ "id": "cordova-plugin-whitelist", "version": null },
+		{ "id": "cordova-plugin-wkwebview-engine", "version": null },
+		{ "id": "https://github.com/miladesign/cordova-plugin-android-tools", "version": null }
+	],
+	"android": {
+		"min": 21,
+		"target": 28,
+		"plugins": []
+	},
+	"ios": {
+		"target": "10.0",
+		"plugins": []
+	}
+}
